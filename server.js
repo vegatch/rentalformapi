@@ -63,7 +63,7 @@ let mailOptions = {
    subject: `Message of ${req.body.messageState.client_name} from Benskya's contact form`,
    text: `<p>${message.text}<p/>  <p>${message.phone}<p/>`,
    html:`<p>Name: ${message.from}<p/>
-         <p>Phone: ${message.phone}<p/>
+         <p>CellPhone: ${message.phone}<p/>
          <p>Email: ${message.email}<p/>
          Message: <p>${message.text}<p/>  
          `,
